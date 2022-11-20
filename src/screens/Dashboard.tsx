@@ -14,7 +14,7 @@ function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    let timeIrID = setTimeout(() => setLoading(false), 2000);
+    let timeIrID = setTimeout(() => setLoading(false), 4000);
 
     return () => {
       clearTimeout(timeIrID);
